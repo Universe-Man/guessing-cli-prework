@@ -1,6 +1,7 @@
 require "pry"
 
 def run_guessing_game
+  binding.pry
   loop do
     puts "Guess a number between 1 and 6."
     userGuess = gets.chomp
